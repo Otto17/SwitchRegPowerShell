@@ -32,15 +32,15 @@ Off          - Восстанавливает политику "По умолч�
 
 ---
 
-_**Примеры.**_
+### Примеры
 
-_Команда_:
+**Команда**:
 
 ```plaintext
 SwitchRegPowerShell.exe List
 ```
 
-Выведет:
+_Выведет_:
 
 ```plaintext
        Scope ExecutionPolicy
@@ -52,25 +52,25 @@ MachinePolicy      Undefined
 LocalMachine       Undefined
 ```
 
-_Команда_:
+**Команда**:
 
 ```plaintext
 SwitchRegPowerShell.exe Bypass
 ```
 
-Выведет:
+_Выведет_:
 
 ```plaintext
 Значение "ExecutionPolicy" изменено на "bypass".
 ```
 
-_Команда_:
+**Команда**:
 
 ```plaintext
 SwitchRegPowerShell.exe Off
 ```
 
-Выведет:
+_Выведет_:
 
 ```plaintext
 Параметр "ExecutionPolicy" был удален.
